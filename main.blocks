@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="#Wn}[iBEJPXBdZ4fu`mQ">mySprite</variable><variable type="KIND_SpriteKind" id="-=Ndhfoj]@*Lk5:^~kKc">Player</variable><variable type="KIND_SpriteKind" id="/.A:Z0;lYvonv]?gWzQf">Projectile</variable><variable type="KIND_SpriteKind" id="a!+I#_m,r6-)xDfFzXub">Food</variable><variable type="KIND_SpriteKind" id="j,,Vbt`-LGgYNhIfc9lh">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="#Wn}[iBEJPXBdZ4fu`mQ">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="#Wn}[iBEJPXBdZ4fu`mQ">mySprite</variable><variable type="KIND_SpriteKind" id="-=Ndhfoj]@*Lk5:^~kKc">Player</variable><variable type="KIND_SpriteKind" id="/.A:Z0;lYvonv]?gWzQf">Projectile</variable><variable type="KIND_SpriteKind" id="a!+I#_m,r6-)xDfFzXub">Food</variable><variable type="KIND_SpriteKind" id="j,,Vbt`-LGgYNhIfc9lh">Enemy</variable></variables><block type="pxt-on-start" id="Nl~~O)MP[!:C^oXdSddA" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="-IsFBTy_c7/X~R+]WzrT"><field name="VAR" id="#Wn}[iBEJPXBdZ4fu`mQ">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ZvA7nM%TC}.Y_MPGnVbZ"><value name="img"><shadow type="screen_image_picker" id="NE-Z1kZ8-.|Wcv/S}i5s"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . 2 . . . . . . . 
 . . . . . . . 7 7 7 . . . . . . 
@@ -15,4 +15,4 @@
 . . . . . 2 2 2 2 1 2 2 . . . . 
 . . . . . 2 2 2 2 2 2 2 . . . . 
 . . . . . 2 2 2 2 2 2 2 . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="{_||BIu2h0hIo2hX`eo$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mixer_play_sound" id="K?_^,6$D[eV$bn{{IQ$8"><field name="sound">music.baDing</field></block></next></block></statement></block></xml>
