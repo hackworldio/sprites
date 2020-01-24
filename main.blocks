@@ -15,4 +15,4 @@
 . . . . . 2 2 2 2 1 2 2 . . . . 
 . . . . . 2 2 2 2 2 2 2 . . . . 
 . . . . . 2 2 2 2 2 2 2 . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="{_||BIu2h0hIo2hX`eo$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mixer_play_sound" id="K?_^,6$D[eV$bn{{IQ$8"><field name="sound">music.baDing</field></block></next></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="{_||BIu2h0hIo2hX`eo$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="7D@noa*Cia,@^8+1u^QH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="^;9G.Zy,KHQ]%?#VS=,2"><field name="VAR" id="#Wn}[iBEJPXBdZ4fu`mQ">mySprite</field></block></value><next><block type="mixer_play_sound" id="K?_^,6$D[eV$bn{{IQ$8"><field name="sound">music.baDing</field></block></next></block></next></block></statement></block></xml>
